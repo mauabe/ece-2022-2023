@@ -9,18 +9,21 @@
   justify-content: space-evenly;
   align-content: flex-start;
   margin: 0 12% 0 12%;
-  border-radius: 4px 4px 0 0; //top box with rounded top corners
-  background-color: $background--20;
-  background-image:  url("../assets/images/overlay.png");
-  transition: all .4s ease-in-out;
+  background-color: $today--80;
+  // background-image:  url("../assets/images/overlay.png");
+  transition: all 1.8s ease-in-out;
+  z-index: 30;
+  box-shadow: $box-shadow-article;
+  // display: none;
 
   .bubble-link {
-    padding: 1em 0.5em ;
+    padding: 0.5em 0.5em ;
     max-width: 180px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     transition: all .4s ease-in-out;
+    display: inherit;
 
       .bubble-frame{
         position: relative;
@@ -30,7 +33,7 @@
         background-color: $gray-60;
         border-radius: $border-radius;
         filter: grayscale(0.8);
-        margin: 10px;
+        margin: 0.5em;
         transition: all .4s ease-in-out;
 
         img.bubble-image{
@@ -41,35 +44,36 @@
 
         &.active {
           border: 1px solid $ubatuba;
-          box-shadow: $box-shadow;
+          box-shadow: $box-shadow-gray;
           filter: grayscale(0.1);
         }
       }
 
       .bubble-text-link{
         .bubble-text {
-          font-family: 'Oswald', sans-serif;
-          font-weight: 700;
+          font-family: 'Raleway', sans-serif;
+          font-weight: 600;
           font-size: 0.9em;
-          color: $gray-40;
+          color: $gray-60;
 
           &.active {
+            color: $gray-60;
+            text-shadow: $text-shadow;
             transition: all .3s ease-in-out;
-            color: $gray-20;
-            text-shadow: $gray-80 .15em .15em;
           }
         }
 
         &.active {
-          transition: all .3s ease-in-out;
           color: $gray-20;
+          text-shadow: $text-shadow;
+          transition: all .3s ease-in-out;
         }
       }
 
     &.bubble-link:focus,
     &.bubble-link:hover  {
       transition: all .3s ease-in-out;
-      color: $gray-50;
+      color: $gray-60;
 
       .bubble-frame{
         border: 1px solid $ubatuba--70;
@@ -79,7 +83,7 @@
       }
       .bubble-text {
         transition: all .3s ease-in-out;
-        color: $gray-50;
+        color: $gray-60;
       }
     }
   } //end bubble-link

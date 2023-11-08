@@ -6,16 +6,16 @@
   z-index: 20;
   flex-direction: row;
   align-items: center;
-  padding: 1.3em 0 0.7em 0;
+  padding: 0.7em 0 0 0;
 
   .logos{
     margin: 0 2rem;
     flex: none;
     position: fixed;
-    z-index: 25;
+    z-index: 10;
 
     .logo-image{
-      width: 85px;
+      width: 75px;
       height: auto;
       // filter: $drop-shadow;
     }
@@ -27,18 +27,21 @@
     flex: 1 1 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 0 11% 1em 11%;
-    height: 44px;
-    background: transparent;
+    margin: 0 12% 0 12%;
+    padding: .5em;
+    height: 5em;
+    background: $tomorrow;
+    // box-shadow: 5px 5px 5px rgba(43, 43, 43, .15);
+    z-index: 10;
+    box-shadow: $box-shadow-article;
 
     a, li.menu-item, .menu-item{
       justify-self: flex-end;
       // letter-spacing: 1px;
-      color: $gray-40;
-      padding-left: 1.2em;
-      padding-bottom: 0.3em;
-      font-family: Oswald;
-      font-weight: 700;
+      color: $pm;
+      padding: 0.5em 0.8em;
+      font-family: Raleway;
+      font-weight: 600;
       font-size: 1em;
       line-height: 1.5;
       opacity: 1;
@@ -46,15 +49,16 @@
       transform: all .3s ease-in-out .3s;
 
       &:hover{
-        // color: $ubatuba--70;
-        color: $gray-50;
-        opacity: 0.8;
+        color: $pm;
+        color: $gray-10;
+        // opacity: 0.8;
       }
       &.active {
-        color: $background;
-        line-height: 1.5;
-        text-decoration: 6px underline dotted;
-        text-underline-offset: 12px;
+        color: $today;
+        opacity: 1;
+        line-height: 1;
+        text-decoration: 20px underline;
+        text-underline-offset: 1.3em;
       }
       &:active {
         color: $gray-10;

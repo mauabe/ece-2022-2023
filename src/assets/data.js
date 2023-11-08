@@ -2,8 +2,8 @@ export const topMenu = [
   ['highlights', 'Highlights'],
   ['news', 'News'],
   ['students', 'Students & Teaching'],
-  ['faculty', 'ECE Faculty'],
-  ['overview', 'Department Overview'],
+  ['faculty', 'Faculty'],
+  ['overview', 'Overview'],
   ['alumni', 'Alumni & Partnerships']
 ];
 
