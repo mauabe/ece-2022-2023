@@ -15,9 +15,8 @@
     z-index: 10;
 
     .logo-image{
-      width: 75px;
+      width: 86px;
       height: auto;
-      // filter: $drop-shadow;
     }
   }
 
@@ -26,39 +25,42 @@
     justify-content: flex-end;
     flex: 1 1 100%;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     margin: 0 12% 0 12%;
-    padding: .5em;
-    height: 5em;
+    padding: .3em .7em 0 0;
+    height: 4.3em;
+    text-align: center;
     background: $tomorrow;
-    // box-shadow: 5px 5px 5px rgba(43, 43, 43, .15);
     z-index: 10;
     box-shadow: $box-shadow-article;
 
     a, li.menu-item, .menu-item{
-      justify-self: flex-end;
-      // letter-spacing: 1px;
+      letter-spacing: 1px;
       color: $pm;
-      padding: 0.5em 0.8em;
+      padding: 0.3em .4em;
       font-family: Raleway;
-      font-weight: 600;
+      font-weight: 700;
       font-size: 1em;
-      line-height: 1.5;
-      opacity: 1;
+      line-height: 1.1;
       cursor: pointer;
       transform: all .3s ease-in-out .3s;
+      // opacity: 1;
 
       &:hover{
-        color: $pm;
         color: $gray-10;
+        // &::after { content: "▶"; margin-left: 5px; }
+        // text-decoration: 2px dashed blue overline;
         // opacity: 0.8;
       }
       &.active {
-        color: $today;
-        opacity: 1;
+        color: $gray-10;
         line-height: 1;
-        text-decoration: 20px underline;
-        text-underline-offset: 1.3em;
+        border-bottom: 8px solid $today;
+        // opacity: .8;
+        // text-underline-offset: 1.3em;
+        // text-decoration: 5px  dodgerblue dashed overline underline;
+        // text-decoration: 20px underline;
+
       }
       &:active {
         color: $gray-10;
