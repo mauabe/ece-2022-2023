@@ -14,27 +14,27 @@
   transition: all 1.8s ease-in-out;
   z-index: 30;
   box-shadow: $box-shadow-article;
-  // display: none;
 
   .bubble-link {
-    padding: 0.5em 0.5em ;
-    max-width: 180px;
+    display: flex;
     flex-direction: column;
+    padding: 0.5em 0.2em ;
+    max-width: 180px;
     text-align: center;
     justify-content: center;
     transition: all .4s ease-in-out;
-    display: inherit;
 
-      .bubble-frame{
-        position: relative;
-        width: 4rem;
-        height: 4rem;
-        overflow: hidden;
-        background-color: $gray-60;
-        border-radius: $border-radius;
-        filter: grayscale(0.8);
-        margin: 0.5em;
-        transition: all .4s ease-in-out;
+    .bubble-frame{
+      position: relative;
+      width: 4rem;
+      height: 4rem;
+      overflow: hidden;
+      background-color: $am;
+      border-radius: $border-radius;
+      filter: grayscale(0.8);
+      margin: 0.5em;
+      text-align: center;
+      transition: all .4s ease-in-out;
 
         img.bubble-image{
           height: 100%;
@@ -76,7 +76,7 @@
       color: $gray-60;
 
       .bubble-frame{
-        border: 1px solid $ubatuba--70;
+        border: 1px solid $gray-80;
         box-shadow: $box-shadow3;
         filter: brightness(0.8);
         transition: all .3s ease-in-out;
