@@ -1,9 +1,6 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-// import ece from '../assets/images/ECE_white.svg';
-// import uclaece from '../assets/images/ECE.svg';
-
 class Logos extends Component {
   constructor(props) {
 		super(props);

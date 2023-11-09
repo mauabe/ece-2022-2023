@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { NavLink, withRouter } from "react-router-dom";
+import ReactHtmlParser from 'react-html-parser';
 import * as data from '../assets/data'
 
 class Menubar extends Component{
@@ -13,7 +14,7 @@ class Menubar extends Component{
 			html.push(
 				<NavLink to={"/" + path}  activeClassName="active" key={index}>
 					<li key={index} className="menu-item">
-						{label}
+						<div>{ReactHtmlParser(label)}</div>
 					</li>
 				</NavLink>
 				)

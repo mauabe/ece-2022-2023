@@ -2,7 +2,7 @@
 // @import "../config/paths.js";
 @import "./variables.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bree+Serif&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nova+Square&family=Oswald:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Bree+Serif&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Nova+Square&family=Oswald:wght@200;400;700&family=Raleway:wght@300;400;600;700;900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
@@ -13,7 +13,7 @@
 // font-family: 'Nova Square', cursive;
 // font-family: 'Libre Caslon Text', serif; font-weight: 0,400;0,700;1,400;
 // font-family: 'Oswald', sans-serif; font-weight: 200,400,700;
-
+//font-family: 'Raleway', sans-serif;
 
 html,
 body,
@@ -43,7 +43,7 @@ h6 {
   font-size: 1rem;
   font-weight: 200;
   text-decoration: none;
-  color: $gray-80;
+  color: $today;
   background-color: transparent;
   box-sizing: border-box;
 }
@@ -79,10 +79,10 @@ textarea {
   margin: 0;
 }
 a{
-  color: $gray-40;
+  color: $tomorrow;
   text-decoration: none;
   &:hover, &:active{
-    color: $ubatuba;
+    color: $today;
   }
 }
 *, *:before, *:after {
@@ -133,12 +133,11 @@ img.none {
 };
 
 .App {
-  // height: 100%;
   align-items: center;
   justify-content: center;
-  background-color: $gray-80;
-  color: $gray-40;
-  background-image: url("../assets/images/axiom.png");
+  background-color: $am;
+  color: $pm;
+  background-image: url("../assets/images/webb.png");
   background-position: top left, center center;
   background-attachment: fixed, fixed;
   background-size: auto, auto;
@@ -179,4 +178,4 @@ img.none {
 @import "./navigation.scss";
 @import "./home.scss";
 
-@import "./mixins.scss";
+// @import "./mixins.scss";
