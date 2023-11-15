@@ -7,7 +7,7 @@
     //panel + data-active::before >
       //panelContent >
         //a > linkText
-        //panelHead >
+        //panelTop >
           //(panelTitle, panelFirstName, panelLastName, panelText + showText,
         //panelImage + panel${id}
 
@@ -33,7 +33,7 @@
     box-shadow: .5em .5em 0.5em rgba(0, 0, 0, 0.3),
     .2em 0.2em 0.8em rgba(0, 0, 0, 0.3);
 
-    //.polycard {
+    //.polycard
     perspective: 600px;
 
     &::before {
@@ -48,29 +48,32 @@
         transform: rotateX(180deg);
 
         background:
-        // #333232
-        // $tomorrow
         $today--60
-        linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5));
+        linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4));
         transition: 0.7s ease-in-out  transform;
     }
 
     &:hover::before {
         transform: rotateX(0);
-        // color: $today--40;
+        color: $today--40;
     }
 
-    &:active {
-      // .panelContent {
-      //   .panelHead {
-      //     .panelTitle, .panelFirstName {
-      //       color: blue;
-      //     }
-      //   }
-      // }
+    &.active {
+      &::before {
+        transform: rotateX(0);
+      }
+      .panelContent {
+        .panelTop {
+          .panelLastName, .panelFirstName, .panelText {
+            color: $eve;
+          }
+        }
+        .panelImage{
+          filter:  blur(2px) opacity(.6);
+        }
+      }
       &:hover::before {
         transform: rotateX(180);
-        color: green;
       }
     }
 
@@ -81,30 +84,32 @@
         color 0.4s ease-in-out,
         filter 0.9s ease-in-out;
 
-      .panelHead{
+      .panelTop{
         display: flex;
         flex: 0 1 25%;
         flex-direction: column;
         margin: 2em 1em 0.5em 1em;
-        text-shadow: .3em .5em .5em rgba(45, 45, 45, 0.3);
 
-        .panelTitle, .panelFirstName {
+        .panelTitle {
+          font-family:'Nova Square', sans-serif;
+          font-size: 1em;
+        }
+        .panelFirstName {
           font-family:'Nova Square', sans-serif;
           font-size: 1.4em;
+          padding: .3em 0 0 0;
         }
         .panelLastName {
           font-family: 'Raleway', sans-serif;
           font-weight: 900;
           font-size: 1.9em;
           line-height: 1.5;
+          text-shadow: .2em .2em .2em rgba(45, 45, 45, 0.5);
         }
         .panelText {
-          // display: flex;
-          // flex: 1 1 auto;
           font-family:'Nova Square', sans-serif;
-          font-size:
-          456+44 1.1em;
-          line-height: 1.4 ;
+          font-size: 1.1em;
+          line-height: 1.3 ;
           padding: .5em 0 .5em 0;
           &.showText{
             color: $noon;
@@ -137,14 +142,11 @@
         }
       }
 
-      &:hover{
-        //hover over panelContent
+      &:hover{   //hover over panelContent
         cursor: context-menu;
-        color: $noon;
 
         .panelImage{
-          filter:  blur(1px) opacity(.55);
-          // filter: blur(1px) opacity(.75);
+          filter:  blur(2px) opacity(.6);
         }
       }
 
@@ -219,12 +221,12 @@
     .panel {
       flex-direction: row;
       max-height: 14%;
-      filter: grayscale(0.01);
+      filter: grayscale(0.1);
       .panelContent {
-        top: 2rem;
+        top: 1em;
         flex-direction: row;
-        margin: 0 0 0 5rem;
-        .panelHead{
+        margin: 0 0 0 .5em;
+        .panelTop{
           margin: 0;
         }
         // .panelText {
@@ -236,7 +238,7 @@
 
       &:hover{
         transition: filter 0.3s ease-in-out 0.3s;
-        filter: grayscale(0.01);
+        filter: grayscale(0.1);
       }
     }
   }
