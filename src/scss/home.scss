@@ -2,7 +2,14 @@
 @import "./variables.scss";
 
 
-// classes in use: content-area > panel-content-area + panel${id} > panel  + active > panelContent > panelHead > (panelTitle, panelFirstName,panelLastName), panelText + showText, a > linkText
+// classes in use: content-area >
+  //panel-content-area + panel${id} >
+    //panel + data-active::before >
+      //panelContent >
+        //a > linkText
+        //panelHead >
+          //(panelTitle, panelFirstName, panelLastName, panelText + showText,
+        //panelImage + panel${id}
 
 .panel-content-area {
   display: flex;
@@ -11,9 +18,7 @@
   justify-content: space-evenly;
   padding:10vh 2em 3em 2em;
   margin: 3em 0 2em 0;
-  // align-content: center;
   width: 100vw;
-  // background-image: url("https://source.unsplash.com/qKoEIBZ4lLM/1500x1500");
 
   .panel{
     display: flex;
@@ -22,141 +27,150 @@
     margin: 1em;
     flex-direction: column;
     height: 55vh;
-    // box-shadow: $box-shadow;
     border: 1px solid $am;
-    // transition: all 0.2s ease-in-out 0.2s;
-    // background-image: radial-gradient($today--50, $today--90);
+    border-radius: 1em;
+    background: radial-gradient($today--60, $today--90);
+    box-shadow: .5em .5em 0.5em rgba(0, 0, 0, 0.3),
+    .2em 0.2em 0.8em rgba(0, 0, 0, 0.3);
 
     //.polycard {
-      border-radius: 1em;
-      perspective: 600px;
-      // background: #333232;
-      // background: $today;
-      background: radial-gradient($today--80, $today--90);
+    perspective: 600px;
 
-      box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.25),
-        0 0.02125em 0.06125em rgba(0, 0, 0, 0.25);
+    &::before {
+        content: " ";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        border-radius: 0 0 1em 1em;
+        width: 100%;
+        height: 50%;
+        transform-origin: center top;
+        transform: rotateX(180deg);
 
-        &::before {
-          content: " ";
-          position: absolute;
-          left: 0;
-          top: 50%;
-          border-radius: 0 0 1em 1em;
-          width: 100%;
-          height: 50%;
-          transform-origin: center top;
-          transform: rotateX(180deg);
-          background:
-            // #333232
-            // $tomorrow--50
-            $today--80
-            linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.4));
-          transition: 0.7s ease-in-out transform;
-        }
+        background:
+        // #333232
+        // $tomorrow
+        $today--60
+        linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5));
+        transition: 0.7s ease-in-out  transform;
+    }
 
-        &:hover::before {
-          transform: rotateX(0);
-        }
-      //}
-    // .panelContent {
+    &:hover::before {
+        transform: rotateX(0);
+        // color: $today--40;
+    }
+
+    &:active {
+      // .panelContent {
+      //   .panelHead {
+      //     .panelTitle, .panelFirstName {
+      //       color: blue;
+      //     }
+      //   }
+      // }
+      &:hover::before {
+        transform: rotateX(180);
+        color: green;
+      }
+    }
+
+    .panelContent {
+      height: 50%;
+      color: $noon;
+      transition:
+        color 0.4s ease-in-out,
+        filter 0.9s ease-in-out;
+
       .panelHead{
         display: flex;
         flex: 0 1 25%;
         flex-direction: column;
         margin: 2em 1em 0.5em 1em;
-        // padding: 1em 0 0 0;
+        text-shadow: .3em .5em .5em rgba(45, 45, 45, 0.3);
 
         .panelTitle, .panelFirstName {
           font-family:'Nova Square', sans-serif;
           font-size: 1.4em;
-          color: $noon;
-          text-shadow: 0 4px 6px rgba(45, 45, 45, 0.3);
         }
         .panelLastName {
-          color: $noon;
           font-family: 'Raleway', sans-serif;
           font-weight: 900;
           font-size: 1.9em;
-          margin: 0.5em 0;
-          text-shadow: 0 4px 6px rgba(45, 45, 45, 0.3);
+          line-height: 1.5;
+        }
+        .panelText {
+          // display: flex;
+          // flex: 1 1 auto;
+          font-family:'Nova Square', sans-serif;
+          font-size:
+          456+44 1.1em;
+          line-height: 1.4 ;
+          padding: .5em 0 .5em 0;
+          &.showText{
+            color: $noon;
+          }
         }
       }
 
-      .panelText {
-        display: flex;
-        flex: 1 1 auto;
-        color: $noon;
-        font-family:'Nova Square', sans-serif;
-        font-size: 1.1em;
-        margin: 1em;
-        line-height: 1.5;
-        padding: 0 0 1em 0;
-        // visibility: hidden;
-        &.showText{
-          color: $gray-40;
-          visibility: visible;
-        }
-      }
       .linkText {
         display: flex;
         float: right;
-        margin: 0.2em 1em 1em 1em ;
-        padding: 1em;
+        align-self: flex-start;
+        margin: 1em .5em;
+        padding: .5em;
         color: $am;
         background-color: $background--70;
-        // transition:
-        //   color 0.3s ease-in-out,
-        //   background-color 0.3s ease-in-out ;
+        transition:
+          color 0.3s ease-in-out,
+          background-color 0.3s ease-in-out ;
 
         .material-symbols-outlined {
           font-variation-settings:
           'FILL' 0,
-          'wght' 400,
+          'wght' 900,
           'GRAD' 0,
           'opsz' 48
         }
         &:hover{
-          color: $gray-20;
+          color: $gray-60;
           background-color: $tomorrow;
         }
-
       }
-      // &:over{
-      //   //hover over panelContent
-      //   // color: $gray-20;
-      //   cursor: context-menu;
-      //   background-image: radial-gradient($today--80, $today--90);
-      //   box-shadow: $box-shadow5;
-      //   .panelText {
-      //     color: today;
-      //     color: $noon;
-      //     filter: brightness(.8);
-      //   }
+
+      &:hover{
+        //hover over panelContent
+        cursor: context-menu;
+        color: $noon;
+
+        .panelImage{
+          filter:  blur(1px) opacity(.55);
+          // filter: blur(1px) opacity(.75);
+        }
+      }
+
+    .panelImage{
+      position: absolute;
+      height: 50%;
+      width: 100%;
+      top: 50%;
+      padding:1em 2em;
+      background-size: cover;
+      background-position: center center;
+      overflow: hidden;
+      border-radius: 0 0 1em 1em;
+      z-index: 60;
+
+      // &:hover::before{
+        // filter: blur(1px) brightness(.8) opacity(.6);
+        // filter: blur(2px);
       // }
-    // } //end panelContent
 
-    &:active {
-      .panelContent {
-        .panelHead {
-          .panelTitle, .panelFirstName {
-            color: $eve;
-          }
-          // .panelLastName {
-          //   filter: brightness(1.5);
-          // }
-        }
-
-        .panelText, .showText{
-          color: $eve;
-          visibility: visible;
-        }
-      }
     }
 
+
+    } // end of panel-content
   } // end of panel
 } //end panel-content-area
-
 
 
 .elahehahmadi{
@@ -166,6 +180,7 @@
   background-image: url("https://source.unsplash.com/WqhP-Oq2aVY/1500x1500");
 }
 .kadambiaward{
+  object-fit: cover;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
