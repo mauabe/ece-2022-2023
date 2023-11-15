@@ -21,7 +21,7 @@ export const articlesOverview = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain: 'https://source.unsplash.com/aiGYVfFsshM/1500x1500',
+    articleImageMain: 'https://source.unsplash.com/43qHmfNkF1o/1500x1500',
     articleImageAltTextMain: 'California NanoSystem Institute',
     articleImageProf: '/img/CNSI-3.jpg',
     articleImageAltTextProf: '',
@@ -54,7 +54,7 @@ export const articlesOverview = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain: 'https://source.unsplash.com/PiqHSHYO3Uw/1500x1500',
+    articleImageMain: 'https://source.unsplash.com/43qHmfNkF1o/1500x1500',
     articleImageAltTextMain: 'UCLA building with balcony and arches',
     articleImageProf: ' https://source.unsplash.com/mr9FouttLGY/500x500',
     articleImageAltTextProf: 'engineer installs an electric circuit breaker',
@@ -63,7 +63,7 @@ export const articlesOverview = [
     articleCaption1: '',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: ' <div class="grid-cards funding"><div class="card-deck"><div class="wider-table"><h3 class="page-title">Research Funding Source</h3><img class="piechart" src="/2022-2023/img/Research-Funding-Sources2022.svg" alt="pie chart with research funding sources"></div></div><div><h3 class="page-title">Graduate Student Fellowships</h3><div class="card-deck"><div class="table-overview"><table id="fellowships"><thead><tr classname="t-head-row"><th>2022-2023 Support</th><th></th></tr></thead><tbody><tr><td>Department Fellowships</td><td class="right">$1,601,388</td></tr><tr><td>Faculty Unrestricted Fellowships</td><td class="right">$435,404</td></tr><tr><td>Samueli Fellowship</td><td class="right">$364,064</td></tr><tr><td>Guru Krupa Fellowship</td><td class="right">$352,698</td></tr><tr><td>Non-Resident Tuition for Teaching Assistants</td><td class="right">$286,938</td></tr><tr><td>Dissertation Year Fellowship</td><td class="right">$187,435</td></tr><tr><td>Eugene Cota Robles Fellowship</td><td class="right">$170,147</td></tr><tr><td>Graduate Dean\'s Scholar Award</td><td class="right">$100,000</td></tr><tr><td>Graduate Opportunity Fellowship</td><td class="right">$75,133</td></tr><tr><td>NASA (FINESST) Fellowship</td><td class="right">$45,000</td></tr><tr><td>Dean\'s GSR Support</td><td class="right">$34,117</td></tr><tr><td>Dean\'s Fellowship & Camp Funds</td><td class="right">$29,000</td></tr><tr class="t-total"><td>TOTAL:</td><td class="right">$3,681,324</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div></div> '
+    textCopy: ' <div class="grid-cards funding"><div class="card-deck"><div class="wider-table"><h3 class="page-title">Research Funding Source</h3><img class="piechart" src="/2022-2023/img/Research-Funding-Sources2022.svg" alt="pie chart with research funding sources"></div></div><div><h3 class="page-title">Graduate Student Fellowships</h3><div class="card-deck"><div class="table-overview"><table id="fellowships"><thead><tr className="t-head-row"><th>2022-2023 Support</th><th></th></tr></thead><tbody><tr><td>Department Fellowships</td><td class="right">$1,601,388</td></tr><tr><td>Faculty Unrestricted Fellowships</td><td class="right">$435,404</td></tr><tr><td>Samueli Fellowship</td><td class="right">$364,064</td></tr><tr><td>Guru Krupa Fellowship</td><td class="right">$352,698</td></tr><tr><td>Non-Resident Tuition for Teaching Assistants</td><td class="right">$286,938</td></tr><tr><td>Dissertation Year Fellowship</td><td class="right">$187,435</td></tr><tr><td>Eugene Cota Robles Fellowship</td><td class="right">$170,147</td></tr><tr><td>Graduate Dean\'s Scholar Award</td><td class="right">$100,000</td></tr><tr><td>Graduate Opportunity Fellowship</td><td class="right">$75,133</td></tr><tr><td>NASA (FINESST) Fellowship</td><td class="right">$45,000</td></tr><tr><td>Dean\'s GSR Support</td><td class="right">$34,117</td></tr><tr><td>Dean\'s Fellowship & Camp Funds</td><td class="right">$29,000</td></tr><tr class="t-total"><td>TOTAL:</td><td class="right">$3,681,324</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div></div> '
   },
   {
     articleId: 'facultystaff',
@@ -87,7 +87,7 @@ export const articlesOverview = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain: 'https://source.unsplash.com/HWVle7eZzmk/1500x1500',
+    articleImageMain: 'https://source.unsplash.com/43qHmfNkF1o/1500x1500',
     articleImageAltTextMain: 'UCLA Building with concrete brise-soleil and arches',
     articleImageProf: 'https://source.unsplash.com/MVQFGoo1Mqc',
     articleImageAltTextProf: 'DNA Genotyping and Sequencing by National Cancer Institute',
@@ -96,7 +96,7 @@ export const articlesOverview = [
     articleCaption1: '',
     articleCaption2: '',
     articleCaption3: '',
-    textCopy: '     <div class="grid-cards facultystaff"><div class="card-deck"><div class="table-overview"><table id="faculty"><thead><tr classname="t-head-row"><th>Faculty and Staff</th><th></th></tr></thead><tbody><tr><td>Ladder Faculty</td><td class="right">48</td></tr><tr><td>Courtesy Appointments</td><td class="right">16</td></tr><tr><td>Emeriti Faculty</td><td class="right">17</td></tr><tr><td>Adjunct Faculty</td><td class="right">9 (plus 1 pending 2023)</td></tr><tr><td>Lecturers (plus 4 pre-6 lecturers)</td><td class="right">8</td></tr><tr><td>Post-Doc (4 incoming)</td><td class="right">31</td></tr><tr><td>Staff</td><td class="right">41</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="recognitions"><thead><tr classname="t-head-row"><th>Faculty Recognitions</th><th></th></tr></thead><tbody><tr><td>Society Fellows</td><td class="right">49</td></tr><tr><td>NAE Members</td><td class="right">20</td></tr><tr><td>NAS Members</td><td class="right">3</td></tr><tr><td>National Academy of Inventors</td><td class="right">11</td></tr><tr><td>Marconi Prize</td><td class="right">1</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div> '
+    textCopy: '     <div class="grid-cards facultystaff"><div class="card-deck"><div class="table-overview"><table id="faculty"><thead><tr className="t-head-row"><th>Faculty and Staff</th><th></th></tr></thead><tbody><tr><td>Ladder Faculty</td><td class="right">48</td></tr><tr><td>Courtesy Appointments</td><td class="right">16</td></tr><tr><td>Emeriti Faculty</td><td class="right">17</td></tr><tr><td>Adjunct Faculty</td><td class="right">9 (plus 1 pending 2023)</td></tr><tr><td>Lecturers (plus 4 pre-6 lecturers)</td><td class="right">8</td></tr><tr><td>Post-Doc (4 incoming)</td><td class="right">31</td></tr><tr><td>Staff</td><td class="right">41</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div><div class="table-overview"><table id="recognitions"><thead><tr className="t-head-row"><th>Faculty Recognitions</th><th></th></tr></thead><tbody><tr><td>Society Fellows</td><td class="right">49</td></tr><tr><td>NAE Members</td><td class="right">20</td></tr><tr><td>NAS Members</td><td class="right">3</td></tr><tr><td>National Academy of Inventors</td><td class="right">11</td></tr><tr><td>Marconi Prize</td><td class="right">1</td></tr></tbody><tfoot><tr><td></td><td></td></tr></tfoot></table></div></div></div> '
   },
   {
     articleId: 'enrollment',
@@ -120,7 +120,7 @@ export const articlesOverview = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain:   'https://source.unsplash.com/KAK0jPmDLt8/1500x1500',
+    articleImageMain:   'https://source.unsplash.com/43qHmfNkF1o/1500x1500',
     articleImageAltTextMain: 'UCLA building with circular facade',
     articleImageProf: 'https://source.unsplash.com/HH4WBGNyltc',
     articleImageAltTextProf: 'Department Overview ',
@@ -154,7 +154,7 @@ export const articlesOverview = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain:   'https://source.unsplash.com/G2vD1YK5wk4/1500x1500',
+    articleImageMain:   'https://source.unsplash.com/43qHmfNkF1o/1500x1500',
     articleImageAltTextMain: 'UCLA interior of buioding with large chandelier',
     articleImageProf: 'https://source.unsplash.com/Ij8Zx_HdcqY',
     articleImageAltTextProf: 'students toss up their graduation caps',
@@ -188,7 +188,7 @@ export const articlesOverview = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain:   'https://source.unsplash.com/hyeAEcQq2m4/1500x1500',
+    articleImageMain:   'https://source.unsplash.com/43qHmfNkF1o/1500x1500',
     articleImageAltTextMain: 'UCLA building and tree-lined walkway',
     articleImageProf: 'https://source.unsplash.com/tqLXJOof370',
     articleImageAltTextProf: 'Student typing on laptop',

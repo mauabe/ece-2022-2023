@@ -21,32 +21,11 @@ $text-shadow: rgba(43, 43, 43, 0.5) 0.15em 0.15em 4px ;
 $text-shadow-drop: rgba(43,43,43,0.7);
 $text-shadow-drop2: rgba(225, 67, 68, 0.8) .09em .05em;
 
-$white: white;
-
 $ubatuba: #68766D;
-// $ubatuba--10: rgba(104,118,109, .1);
-$ubatuba--30: rgba(104,118,109, .3);
-$ubatuba--50: rgba(104,118,109, .5);
-$ubatuba--70: rgba(104,118,109, .7);
-$ubatuba--90: rgba(104,118,109, .9);
-$ubatuba-menu: rgba(24,100,64, 1);
+$ubatuba--10: rgba(104,118,109, .1);
 
-$dkblue: rgb(33,47,60);
-$dkblue2: rgb(44,57,90);
-$menublue: rgb(17, 170, 161);
-$menublue--30: rgba(33, 47, 90, 0.3);
-$menublue--50: rgba(33, 47, 90, 0.5);
-$menublue--70: rgba(33, 47, 90, 0.7);
-$menublue--80: rgba(33, 47, 90, 0.8);
-$menublue--90: rgba(33, 47, 90, 0.9);
-$menublue--95: rgba(33, 47, 90, 0.95);
 // $amazon: #0d4773; //13 71 115
 
-$LightSteelBlue: #B0C4DE;
-
-
-// $mercury: #e5e7e3;
-// $jaguar: #2B2B2B;
 $gray: #e7e7e7; //231 231 231
 $gray-10: #f5f5f5; // 245 245 245;
 $gray-20: #DCDCDC; //220 220 220;
@@ -84,16 +63,25 @@ $beige-light--70: rgba(208, 209, 205, .7);
 // $beige-lighter--60: rgba(239, 240, 235, .6);
 // $beige-lighter--80: rgba(239, 240, 235, .8);
 
-
 $today: #fdb00a;
 $today--20: rgba(253, 176, 10, 0.2);
 $today--30: rgba(253, 176, 10, 0.3);
 $today--40: rgba(253, 176, 10, 0.4);
 $today--50: rgba(253, 176, 10, 0.5);
+$today--60: rgba(253, 176, 10, 0.6);
+$today--70: rgba(253, 176, 10, 0.7);
 $today--80: rgba(253, 176, 10, 0.8);
+$today--90: rgba(253, 176, 10, 0.9);
+
 $tomorrow: #e14344;
-$tomorrow--80: rgba(225, 67, 68, 0.8);
-$tomorrow--50: rgba(225, 67, 68, 0.5);
 $tomorrow--20: rgba(225, 67, 68, 0.2);
+$tomorrow--30: rgba(225, 67, 68, 0.3);
+$tomorrow--50: rgba(225, 67, 68, 0.5);
+$tomorrow--60: rgba(225, 67, 68, 0.6);
+$tomorrow--70: rgba(225, 67, 68, 0.7);
+$tomorrow--80: rgba(225, 67, 68, 0.8);
+$tomorrow--90: rgba(225, 67, 68, 0.9);
 $am: #c7c9c8;
 $pm: #dcdedd;
+$noon: #555555;
+$eve: #2d2d2d;

@@ -29,54 +29,54 @@ export const logos = {
 
 export const panels = [
   {
-    id: "yuantian",
+    id: "elahehahmadi",
     title: "Asst. Professor",
+    firstName: "Elaheh",
+    lastName: "Ahmadi",
+    text: "NEW FACULTY: ",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
+    link: "highlights/elahehahmadi"
+  },
+  {
+    id: "kadambiaward",
+    title: "Professor",
+    firstName: "Achuta",
+    lastName: "Kadambi",
+    text: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    linkText: "../assets/images/joy.jpg",
+    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
+    link: "highlights/kadambiaward"
+  },
+  {
+    id: "xiangchengoogle",
+    title: "Professor",
+    firstName: "Xiang Anthony",
+    lastName: "Chen",
+    text: "xiangchengoogle",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    image: "https://source.unsplash.com/_Q96YBb998E/1500x1500",
+    link: "highlights/xiangchengoogle"
+  },
+  {
+    id: "sergiocarbajoyia",
+    title: "Professor ",
+    firstName: "Sergio",
+    lastName: " Carbajo",
+    text: "Young Investigastor Award",
+    linkText: "<i style='font-size:24px' class='fas'>&#xf061;</i>",
+    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
+    link: "highlights/sergiocarbajoyia"
+  },
+  {
+    id: "yuantianokawa",
+    title: "Professor ",
     firstName: "Yuan",
     lastName: "Tian",
-    text: "NEW FACULTY: Towards Secure, Privacy-Preserving, and Ethical Computing",
-    linkText: "more",
-    image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
-    link: "highlights/yuantian"
-  },
-  {
-    id: "monajarrahiiet",
-    title: "Professor",
-    firstName: "Mona",
-    lastName: "Jarrahi",
-    text: 'Receives IET\'s AF Harvey Engineering Research Prize',
-    linkText: "",
-    image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
-    link: "highlights/jarrahi"
-  },
-  {
-    id: "dejanmarkovicaimbe",
-    title: "Professor",
-    firstName: "Dejan",
-    lastName: "Markovic",
-    text: "Elected to the 2022 Class of the AIMBE College of Fellows",
-    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "58Z17lnVS4U",
-    link: "highlights/markovic"
-  },
-  {
-    id: "frankchangeasa",
-    title: "Professor ",
-    firstName: "M.C. Frank",
-    lastName: " Chang",
-    text: "Elected to European Academy of Sciences and Arts",
+    text: 'Okawa Foundation Grant',
     linkText: "<i style='font-size:24px' class='fas'>&#xf061;</i>",
-    image: "https://source.unsplash.com/fmCtPQhQksw/1500x1500",
-    link: "highlights/chang"
-  },
-  {
-    id: "asadmadnihonors",
-    title: "Professor ",
-    firstName: "Asad",
-    lastName: "Madni",
-    text: 'Receives Highest Honors from IEEE and Royal Academy of Engineering',
-    linkText: "&#xf061;",
-    image: "/img/PrincePhilipHouse.jpg",
-    link: "highlights/madni"
+    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
+    link: "highlights/yuantianokawa"
   }
 
 ];

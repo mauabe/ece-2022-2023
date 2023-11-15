@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
 import {Link, withRouter} from "react-router-dom";
-// import { Link, withRouter, BrowserRouter } from "react-router-dom";
-// import {Router} from 'react-router';
 import * as data from '../assets/data';
 import ReactHtmlParser from 'react-html-parser';
 
@@ -30,27 +28,32 @@ class Home extends Component{
       const panelSelected = this.state.currentPanel === panel.id ? "showText" : "";
 
       html.push(
-        <div className="panel" data-active={activeClassName} key={panel.id}>
-          <div className="panelContent" onClick={(e) => this.setState({currentPanel: panel.id})}>
+        <div className="panel" data-active={activeClassName} key={panel.id} onClick={(e) => this.setState({currentPanel: panel.id})}>
+          <div className="panelContent" >
+            <Link to={`/${panel.link}`} >
+              <div className="linkText">
+                <span >&#x2B22;</span>
+                <span className='material-symbols-outlined'>arrow_forward</span>
+              </div>
+            </Link>
             <div className="panelHead">
               <div className="panelTitle">{panel.title}</div>
               <div className="panelFirstName">{panel.firstName}</div>
               <div className="panelLastName">{panel.lastName}</div>
-            </div>
-            <div className={`panelText ${panelSelected}`}>
-              {ReactHtmlParser(panel.text)}
-            </div>
-            <Link to={`/${panel.link}`} >
-              <div className="linkText">
-                <span className='material-symbols-outlined'>arrow_forward</span>
+              <div className={`panelText ${panelSelected}`}>
+                {ReactHtmlParser(panel.text)}
               </div>
-            </Link>
+            </div>
+            <div className={`panelImage ${panel.id}`}>
+             {panel.id}
+            </div>
           </div>
         </div>
         );
+        return html;
       });
-      console.log('html outside map panelContainer::', html);
       return html;
+      console.log('html outside map panelContainer::', html);
   }
 
   render() {

@@ -1,6 +1,6 @@
 // import React, {Component} from 'react';
 // import { Router, Route, Link, NavLink } from 'react-router-dom';
-// import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+// import { Router, Route, Link, NavLink } from 'react-router-dom';
 // import { CSSTransition } from 'react-transition-group';
 // import Home from './pages/home'
 // import About from './pages/about'

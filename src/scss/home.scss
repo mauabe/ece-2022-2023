@@ -2,85 +2,124 @@
 @import "./variables.scss";
 
 
-// classes in use: content-area > panel-content-area + panel${id} > panel  + active > panelContent > panelHead > (panelTitle, panelFirstName,panelLastName), panelText + showText, a > linkText
+// classes in use: content-area >
+  //panel-content-area + panel${id} >
+    //panel + data-active::before >
+      //panelContent >
+        //a > linkText
+        //panelHead >
+          //(panelTitle, panelFirstName, panelLastName, panelText + showText,
+        //panelImage + panel${id}
 
 .panel-content-area {
   display: flex;
-  height: 87vh;
+  height: 82vh;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 35vh 2em 0em 2em;
-  // position: relative;
-  // width: 100vw;
-
-  // background-image: url("https://source.unsplash.com/qKoEIBZ4lLM/1500x1500");
+  justify-content: space-evenly;
+  padding:10vh 2em 3em 2em;
+  margin: 3em 0 2em 0;
+  width: 100vw;
 
   .panel{
     display: flex;
     flex: 1 0 15%;
     z-index: 20;
-    margin: 2em;
-    color: gray-50;
-    // transition:
-      // filter 0.3s ease-in-out 0.3s;
+    margin: 1em;
+    flex-direction: column;
+    height: 55vh;
+    border: 1px solid $am;
+    border-radius: 1em;
+    background: radial-gradient($today--60, $today--90);
+    box-shadow: .5em .5em 0.5em rgba(0, 0, 0, 0.3),
+    .2em 0.2em 0.8em rgba(0, 0, 0, 0.3);
+
+    //.polycard {
+    perspective: 600px;
+
+    &::before {
+        content: " ";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        border-radius: 0 0 1em 1em;
+        width: 100%;
+        height: 50%;
+        transform-origin: center top;
+        transform: rotateX(180deg);
+
+        background:
+        // #333232
+        // $tomorrow
+        $today--60
+        linear-gradient(180deg, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0.5));
+        transition: 0.7s ease-in-out  transform;
+    }
+
+    &:hover::before {
+        transform: rotateX(0);
+        // color: $today--40;
+    }
+
+    &:active {
+      // .panelContent {
+      //   .panelHead {
+      //     .panelTitle, .panelFirstName {
+      //       color: blue;
+      //     }
+      //   }
+      // }
+      &:hover::before {
+        transform: rotateX(180);
+        color: green;
+      }
+    }
 
     .panelContent {
-      display: flex;
-      flex: 1 0 20%;
-      flex-direction: column;
-      height: 38vh;
-      background-image: radial-gradient($menublue--95, $dkblue);
-      // align-items: stretch;
-      align-content: stretch;
-      align-content: space-between;
-      box-shadow: $box-shadow;
-      transition: all 0.2s ease-in-out 0.2s;
+      height: 50%;
+      color: $noon;
+      transition:
+        color 0.4s ease-in-out,
+        filter 0.9s ease-in-out;
 
       .panelHead{
         display: flex;
         flex: 0 1 25%;
         flex-direction: column;
         margin: 2em 1em 0.5em 1em;
-        // padding: 1em 0 0 0;
-        filter: brightness(1);
+        text-shadow: .3em .5em .5em rgba(45, 45, 45, 0.3);
 
         .panelTitle, .panelFirstName {
           font-family:'Nova Square', sans-serif;
           font-size: 1.4em;
-          // letter-spacing: 0.1ch;
-          text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
         }
         .panelLastName {
-          color: $LightSteelBlue;
-          font-family:'Alfa Slab One';
-          font-size: 1.7em;
-          margin: 0.2em 0;
-          text-shadow: 0 4px 6px rgba(0, 0, 0, 0.72);
+          font-family: 'Raleway', sans-serif;
+          font-weight: 900;
+          font-size: 1.9em;
+          line-height: 1.5;
+        }
+        .panelText {
+          // display: flex;
+          // flex: 1 1 auto;
+          font-family:'Nova Square', sans-serif;
+          font-size:
+          456+44 1.1em;
+          line-height: 1.4 ;
+          padding: .5em 0 .5em 0;
+          &.showText{
+            color: $noon;
+          }
         }
       }
 
-      .panelText {
-        display: flex;
-        flex: 1 1 auto;
-        color: $gray-40;
-        font-family:'Nova Square', sans-serif;
-        font-size: 1.1em;
-        margin: 1em;
-        line-height: 1.5;
-        padding: 0 0 1em 0;
-        // visibility: hidden;
-        // &.showText{
-        //   color: $gray-40;
-        //   visibility: visible;
-        // }
-      }
       .linkText {
         display: flex;
         float: right;
-        margin: 0.2em 1em 1em 1em ;
-        padding: 1em;
-        color: $gray-40;
-        background-color: $background--50;
+        align-self: flex-start;
+        margin: 1em .5em;
+        padding: .5em;
+        color: $am;
+        background-color: $background--70;
         transition:
           color 0.3s ease-in-out,
           background-color 0.3s ease-in-out ;
@@ -88,83 +127,86 @@
         .material-symbols-outlined {
           font-variation-settings:
           'FILL' 0,
-          'wght' 400,
+          'wght' 900,
           'GRAD' 0,
           'opsz' 48
         }
         &:hover{
-          color: $gray-20;
-          background-color: $menublue;
+          color: $gray-60;
+          background-color: $tomorrow;
         }
-
       }
+
       &:hover{
-        //hover over panelContent, blue box
-        color: $gray-20;
+        //hover over panelContent
         cursor: context-menu;
-        background-image: radial-gradient($menublue--80, $dkblue);
-        box-shadow: $box-shadow5;
-        .panelText {
-          color: red;
-          color: $gray-20;
-          filter: brightness(.8);
+        color: $noon;
+
+        .panelImage{
+          filter:  blur(1px) opacity(.55);
+          // filter: blur(1px) opacity(.75);
         }
       }
-    } //end panelContent
 
-    &:active {
-      .panelContent {
-        .panelHead {
-          .panelTitle, .panelFirstName {
-            color: $gray-20;
-          }
-          .panelLastName {
-            filter: brightness(1.5);
-          }
-        }
+    .panelImage{
+      position: absolute;
+      height: 50%;
+      width: 100%;
+      top: 50%;
+      padding:1em 2em;
+      background-size: cover;
+      background-position: center center;
+      overflow: hidden;
+      border-radius: 0 0 1em 1em;
+      z-index: 60;
 
-        .panelText, .showText{
-          color: $gray-20;
-          visibility: visible;
-        }
-      }
+      // &:hover::before{
+        // filter: blur(1px) brightness(.8) opacity(.6);
+        // filter: blur(2px);
+      // }
+
     }
+
+
+    } // end of panel-content
   } // end of panel
 } //end panel-content-area
 
-.yuantian{
+
+.elahehahmadi{
   background-size: cover;
   background-position: center center;
-  // background-repeat: no-repeat;
-  // flex-wrap: no-wrap;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/7pqS06wgvEw/1500x1500");
+  background-image: url("https://source.unsplash.com/WqhP-Oq2aVY/1500x1500");
 }
-.monajarrahiiet{
+.kadambiaward{
+  object-fit: cover;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/J10TawzEW6Q/1500x1500");
+  background-image: url("https://source.unsplash.com/fmCtPQhQksw/1500x1500");
 }
-.dejanmarkovicaimbe{
+.xiangchengoogle{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/58Z17lnVS4U/1500x1500");
+  background-image: url("https://source.unsplash.com/_Q96YBb998E/1500x1500");
 }
-.frankchangeasa{
+.sergiocarbajoyia{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/7JX0-bfiuxQ/1500x1500");
+  background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
 }
-.asadmadnihonors{
+.yuantianokawa{
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("../assets/images/madni_PrincePhilipHouse.jpg");
+  background-image: url("../assets/images/joy.jpg");
   // background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
 }
+
+
 
 @media only screen and (max-width: 1200px) {
   .panel {

@@ -50,22 +50,22 @@ tbody tr:hover {
 //   background-color: $gray-20;
 // }
 tr.t-total{
-  background-color: $ubatuba--30;
+  background-color: $tomorrow--30;
   &:hover{
-    background-color: lighten($ubatuba--50, 10) ;
+    background-color: lighten($tomorrow--50, 10) ;
   }
 }
 tr.sub-head{
-  background-color: $ubatuba--30;
+  background-color: $tomorrow--30;
   &:hover{
-    background-color: darken($ubatuba--30, 10) ;
+    background-color: darken($tomorrow--30, 10) ;
   }
 }
 tr.sub-total{
-  background-color: darken($ubatuba--70, 8);
+  background-color: darken($tomorrow--70, 8);
 
   &:hover{
-    background-color: lighten($ubatuba--70, 5) ;
+    background-color: lighten($tomorrow--70, 5) ;
   }
 }
 
