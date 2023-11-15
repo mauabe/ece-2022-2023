@@ -28,15 +28,15 @@ class Home extends Component{
       const panelSelected = this.state.currentPanel === panel.id ? "showText" : "";
 
       html.push(
-        <div className="panel" data-active={activeClassName} key={panel.id} onClick={(e) => this.setState({currentPanel: panel.id})}>
+        <div className={`panel ${activeClassName}`} data-active={activeClassName} key={panel.id} onClick={(e) => this.setState({currentPanel: panel.id})}>
           <div className="panelContent" >
             <Link to={`/${panel.link}`} >
               <div className="linkText">
-                <span >&#x2B22;</span>
+                {/* <span >&#x2B22;</span> */}
                 <span className='material-symbols-outlined'>arrow_forward</span>
               </div>
             </Link>
-            <div className="panelHead">
+            <div className="panelTop">
               <div className="panelTitle">{panel.title}</div>
               <div className="panelFirstName">{panel.firstName}</div>
               <div className="panelLastName">{panel.lastName}</div>
@@ -45,7 +45,7 @@ class Home extends Component{
               </div>
             </div>
             <div className={`panelImage ${panel.id}`}>
-             {panel.id}
+             {/* {panel.id} */}
             </div>
           </div>
         </div>
