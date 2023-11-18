@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import{withRouter} from 'react-router-dom';
-import ReactHtmlParser from 'react-html-parser'; //, { processNodes, convertNodeToElement, htmlparser2 }
-// import Story from './Story';
+// import ReactHtmlParser from 'react-html-parser'; //, { processNodes, convertNodeToElement, htmlparser2 }
+import parse from 'html-react-parser'; //newer parser
 
 class Article extends Component{
 
@@ -18,7 +18,7 @@ class Article extends Component{
     const html =  `${this.props.story.textCopy}`;
     return (
       <div className="text-copy">
-        <div className={`text-body ${this.props.story.articleId}-text`}>{ ReactHtmlParser(html) }</div>
+        <div className={`text-body ${this.props.story.articleId}-text`}>{ parse(html) }</div>
       </div>
     )
   }
@@ -73,7 +73,7 @@ class Article extends Component{
           <div className="article-headline">
             <div className="headline-lead">{articleHeadlineOne} </div>
             <div className="headline">{articleHeadlineTwo} </div>
-            <div className="subhead">{ ReactHtmlParser(articleHeadlineThree)} </div>
+            <div className="subhead">{ parse(articleHeadlineThree)} </div>
           </div>
         </div>
 
@@ -100,8 +100,9 @@ class Article extends Component{
         </div>
 
         <div className={`${creditsClassName} ${articleId}-credits`}>
-          <span className={imgCreditClassName}>{ReactHtmlParser(articleImageCred)}</span>
-          <span className={authorCreditClassName}>{ReactHtmlParser(articleAuthor)}</span>
+          <span className={imgCreditClassName}>{parse(articleImageCred)}</span>
+          {/* <span className={authorCreditClassName}>{ReactHtmlParser(articleAuthor)}</span> */}
+          <span className={authorCreditClassName}>{parse(articleAuthor)}</span>
         </div>
 
       </div>

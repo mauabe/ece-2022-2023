@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {NavLink} from "react-router-dom";
-import ReactHtmlParser from 'react-html-parser';
+// import ReactHtmlParser from 'react-html-parser';
+import parse from 'html-react-parser';
 
 class Bubble extends Component{
 
@@ -38,7 +39,8 @@ class Bubble extends Component{
             />
           </div >
           <div className={`bubble-text-link ${activeClassNameCheck}`}>
-            <div className={`bubble-text ${activeClassNameCheck}`}>{ReactHtmlParser(bubbleTextOne)} </div>
+            {/* <div className={`bubble-text ${activeClassNameCheck}`}>{ReactHtmlParser(bubbleTextOne)} </div> */}
+            <div className={`bubble-text ${activeClassNameCheck}`}>{parse(bubbleTextOne)} </div>
             <div className={`bubble-text ${activeClassNameCheck}`}>{bubbleTextTwo}</div>
             <div className={`bubble-text ${activeClassNameCheck}`}>{bubbleTextThree}</div>
           </div>
