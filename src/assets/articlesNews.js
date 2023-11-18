@@ -24,7 +24,7 @@ export const articlesNews = [
     articleImageAltText6: '',
     articleImageMain: 'https://source.unsplash.com/Kj2SaNHG-hg/1500x1500',
     articleImageAltTextMain: '',
-    articleImageProf: 'https://source.unsplash.com/67L18R4tW_w/1500x1500',
+    articleImageProf: 'https://source.unsplash.com/67L18R4tW_w/1500x1500 ',
     articleImageAltTextProf: '',
     articleImageCred: '',
     articleAuthor: '',

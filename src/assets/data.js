@@ -30,10 +30,10 @@ export const logos = {
 export const panels = [
   {
     id: "elahehahmadi",
-    title: "Asst. Professor",
+    title: "Associate Professor",
     firstName: "Elaheh",
     lastName: "Ahmadi",
-    text: "NEW FACULTY: ",
+    text: "NEW FACULTY: associate professor ",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
     image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
     link: "highlights/elahehahmadi"
