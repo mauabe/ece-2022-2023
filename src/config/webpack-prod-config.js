@@ -80,6 +80,11 @@ module.exports = merge(common, {
           ],
         }),
       },
+      {
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: 'javascript/auto'
+      },
     ],
   },
 });

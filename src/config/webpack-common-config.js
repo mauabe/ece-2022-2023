@@ -18,7 +18,8 @@ module.exports = {
   ],
   resolve: {
     // File extensions. Add others and needed (e.g. scss, json)
-    extensions: ['.js', '.jsx'],
+    //mjs for html-react-parser
+    extensions: ['.js', '.jsx', '.mjs'],
     modules: ['node_modules'],
     // Aliases help with shortening relative paths
     // 'Components/button' === '../../../components/button'
@@ -27,12 +28,18 @@ module.exports = {
       Containers: path.resolve(paths.appSrc, 'containers'),
       Utils: path.resolve(paths.appSrc, 'utils'),
     },
+    mainFields: ['browser', 'main', 'module'],
   },
   module: {
     rules: [
       {
         test: /\.(png|svg|jpg)$/,
         use: ['file-loader'],
+      },
+      {
+        test: /\.mjs$/,
+        include: /node_modules/,
+        type: 'javascript/auto'
       },
     ],
   },

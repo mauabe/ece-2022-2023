@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Link, withRouter} from "react-router-dom";
 import * as data from '../assets/data';
-import ReactHtmlParser from 'react-html-parser';
+// import ReactHtmlParser from 'react-html-parser';
+import parse from 'html-react-parser';
 
 class Home extends Component{
   constructor(props) {
@@ -41,7 +42,7 @@ class Home extends Component{
               <div className="panelFirstName">{panel.firstName}</div>
               <div className="panelLastName">{panel.lastName}</div>
               <div className={`panelText ${panelSelected}`}>
-                {ReactHtmlParser(panel.text)}
+                {parse(panel.text)}
               </div>
             </div>
             <div className={`panelImage ${panel.id}`}>
@@ -53,7 +54,7 @@ class Home extends Component{
         return html;
       });
       return html;
-      console.log('html outside map panelContainer::', html);
+      // console.log('html outside map panelContainer::', html);
   }
 
   render() {
