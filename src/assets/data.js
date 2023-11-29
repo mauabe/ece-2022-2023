@@ -10,7 +10,7 @@ export const topMenu = [
 export const subMenus = {
   'intro': ['intro0'],
   'news': ['news0', 'news1', 'news2', 'news3','news4'],
-  'highlights': ['highlight0', 'highlight1', 'highlight2', 'highlight3','highlight4'],
+  'highlights': ['highlight0', 'highlight1', 'highlight2', 'highlight3','highlight4', 'highlight5', 'highlight6', 'highlight7'],
   'students': ['students0', 'students1', 'students2', 'students3','students4'],
   'faculty':['faculty0', 'faculty1', 'faculty2', 'faculty3','faculty4'],
   'overview':['overview0', 'overview1', 'overview2', 'overview3'],
@@ -30,61 +30,67 @@ export const logos = {
 export const panels = [
   {
     id: "elahehahmadi",
-    title: "Associate Professor",
+    title: "NEW FACULTY",
     firstName: "Elaheh",
     lastName: "Ahmadi",
-    text: "NEW FACULTY: associate professor ",
+    text: "Exploring Ultrawide Bandgap Materials and Devices for a Connected World",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
+    image: "/2022-2023/img/flame-semiconductor.jpg",
     link: "highlights/elahehahmadi"
+  },
+  {
+    id: "Ian Roberts",
+    title: "NEW FACULTY",
+    firstName: "Ian ",
+    lastName: "Roberts",
+    text: "Is Pioneering New Wireless Network Technologies",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    image: "/2022-2023/img/wireless-network-nick-fancher.jpg",
+    link: "highlights/ianoroberts"
+  },
+  {
+    id: "xiaofancui",
+    title: "NEW FACULTY",
+    firstName: "Xiaofan",
+    lastName: "Cui",
+    text: "Explores Energy and Power Distribution in Electronic Devices",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    image: "https://source.unsplash.com/gKmXPcVToY0/1500x1500",
+    link: "highlights/xiaofancui"
+  },
+  {
+    id: "frankchangmedal",
+    title: "Distinguished Professor",
+    firstName: "M.C Frank",
+    lastName: "Chang",
+    text: "Awarded the 2023 James Clerk Maxwell Medal by the IEEE and the Royal Society of Edinburgh (IEEE/RSE)",
+    linkText: "../assets/images/joy.jpg",
+    image: "https://source.unsplash.com/Kj2SaNHG-hg/1500x1500",
+    link: "highlights/kadambiaward"
+  },
+  {
+    id: "kangwanginventors",
+    title: "Distinguished Professor",
+    firstName: "Kang",
+    lastName: "Wang",
+    text: "Elected to National Academy of Inventors",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    image: "https://source.unsplash.com/_Q96YBb998E/1500x1500",
+    link: "highlights/kangwanginventors"
   },
   {
     id: "kadambiaward",
     title: "Professor",
     firstName: "Achuta",
     lastName: "Kadambi",
-    text: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    text: "Recognized for his Role in Promoting Inclusivity in Engineering",
     linkText: "../assets/images/joy.jpg",
     image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
     link: "highlights/kadambiaward"
   },
-  {
-    id: "xiangchengoogle",
-    title: "Professor",
-    firstName: "Xiang Anthony",
-    lastName: "Chen",
-    text: "xiangchengoogle",
-    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "https://source.unsplash.com/_Q96YBb998E/1500x1500",
-    link: "highlights/xiangchengoogle"
-  },
-  {
-    id: "sergiocarbajoyia",
-    title: "Professor ",
-    firstName: "Sergio",
-    lastName: " Carbajo",
-    text: "Young Investigastor Award",
-    linkText: "<i style='font-size:24px' class='fas'>&#xf061;</i>",
-    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
-    link: "highlights/sergiocarbajoyia"
-  },
-  {
-    id: "yuantianokawa",
-    title: "Professor ",
-    firstName: "Yuan",
-    lastName: "Tian",
-    text: 'Okawa Foundation Grant',
-    linkText: "<i style='font-size:24px' class='fas'>&#xf061;</i>",
-    image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
-    link: "highlights/yuantianokawa"
-  }
-
 ];
 
     /* unsplash:
     lines: xnqVGsbXgV4
     lamps: fmCtPQhQksw
-
-
-
     */

@@ -1,9 +1,7 @@
 // webpack-prod-config.js
-
 // contains configuration data related to prod build
 
 const path = require('path');
-
 const webpack = require('webpack');
 const merge = require('webpack-merge');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
@@ -80,11 +78,11 @@ module.exports = merge(common, {
           ],
         }),
       },
-      {
-        test: /\.mjs$/,
-        include: /node_modules/,
-        type: 'javascript/auto'
-      },
+      // {
+      //   test: /\.mjs$/,
+      //   include: /node_modules/,
+      //   type: 'javascript/auto'
+      // },
     ],
   },
 });

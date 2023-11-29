@@ -34,6 +34,7 @@ class App extends Component {
       <div className="App">
         <Navigation/>
         <Switch>
+          <Route path='/intro' render={() => <Redirect to="/intro"/>} />
           <Route path='/highlights' component={Highlights}/>
           <Route path='/news' component={News}/>
           <Route path='/students' component={Students}/>
@@ -41,7 +42,7 @@ class App extends Component {
           <Route path='/overview' component={Overview}/>
           <Route path='/alumni' component={Alumni}/>
           <Route exact path='/' component={Home}/>
-          <Route path='/highlights' render={() => <Redirect to="/highlights/intro"/>} />
+          {/* <Route path='/highlights' render={() => <Redirect to="/highlights/intro"/>} /> */}
           {/*
             <Route path='/intro' render={() => <Redirect to="/intro"/>} />
             <Route path='/students' render={() => <Redirect to="/students/awardsundergrad"/>} />

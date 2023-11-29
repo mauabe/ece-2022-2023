@@ -34,7 +34,7 @@ export const articlesHighlights = [
     textCopy: '    <p style="text-indent:0"><span class="first-letter">L</span>Lee Iacocca, Ford’s then General Manager, commissioned his design team to come up with a two seated roadster that would compete with popular European cars as well as the American Chevy Corvette Sting Ray. A design team headed by assistant manager and engineer Donald Frey was formed and the new project was titled the “T-5”. After some consideration it was agreed that a cross breed roadster and Ford Falcon would be more suitable to modern demands. </p><p>After all, the Ford Thunderbird, which was Ford’s most recent two seater car, did not fair as well as expected in current car markets. The T-5 was given a new design commission and Lee Iacocco gives much credit to the efforts of stylist David Ash for making the renamed “Mustang” a smashing success.</p><p>    In 1964 production was in high gear for the newly designed 1965 Ford Mustang. </p><p>    Clearly the new Ford Mustang was suddenly everywhere! It was even featured in 1964’s Bond movie, Goldfinger! Yes, the Mustang was an instant hit! A true royal gem in Ford’s car making history.  Ford is still continuing the Mustang line and even the newer Mustangs are a modern collectors item. </p> '
   },
   {
-    articleId: 'h2',
+    articleId: 'elahehahmadi',
     bubbleTextOne: 'Elaheh',
     bubbleTextTwo: 'Ahmadi',
     bubbleTextThree: '',
@@ -55,7 +55,7 @@ export const articlesHighlights = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain: '/img/flame-semiconductor.jpg',
+    articleImageMain: '/2022-2023/img/flame-semiconductor.jpg',
     articleImageAltTextMain: '',
     articleImageProf: '/2022-2023/img/Elaheh-Ahmadi.jpg',
     articleImageAltTextProf: 'Associate Professor Elaheh Ahmadi portrait',
@@ -67,7 +67,7 @@ export const articlesHighlights = [
     textCopy: '    <p style="text-indent:0"><span class="first-letter">I</span>=n the era of internet of things, and autonomous electric cars, highly efficient, reliable, low latency communication has become more important than ever. At the same time, climate change, which is in part due to technological advances, is an existential threat to humanity which calls for efficient, low-waste electronics and renewable energies. The goal of my research group at the University of California Los Angeles is to contribute to finding solutions to these challenges by working on (ultra)wide bandgap materials and devices.<p></p>Our group conducts research at the intersections of traditional research areas; or in the language of a materials scientist at “the grain boundaries”. In a vertically integrated manner, we do everything from structural, optical, and electrical characterization of materials epitaxially grown in our laboratory as well as fabrication and testing of devices. We do collaborate with groups in different disciplines, including Materials science, applied physics, circuits and systems.<p></p>Ahmadi received her B.S. and M.S. degrees, both from Sharif University of Technology in Tehran, Iran, in 2008 and 2010 respectively. She then joined UCSB in 2010 to pursue her PhD, focusing on epitaxial growth and characterization of GaN-based electronic devices. In 2015, she commenced her postdoctoral research, specializing in epitaxial growth and characterization of Ga2O3 devices. In July 2023, she joined the Department of Electrical and Computer Engineering at the UCLA as an Associate Professor. Prior to this, she served as an Assistant Professor at the University of Michigan, where she established and currently leads the Wide Bandgap Materials and Electronics (WBME) lab. Ahmadi has been honored with several awards, including the AFOSR YIP, ONR YIP, NSF CAREER, and DARPA Young Faculty awards, as well as the UM EECS department Outstanding Achievement Award, and the ISCS Young Scientist Award.</p>'
   },
   {
-    articleId: 'h3',
+    articleId: 'ianoroberts',
     bubbleTextOne: 'Ian ',
     bubbleTextTwo: 'Roberts',
     bubbleTextThree: '',
@@ -76,7 +76,7 @@ export const articlesHighlights = [
     articleHeadlineThree: '',
     articleCallout1: '',
     articleCallout2: '',
-    articleImage1: '/img/ian-roberts.jpg',
+    articleImage1: '/2022-2023/img/ian-roberts.jpg',
     articleImage2:'',
     articleImage3: '',
     articleImage4:'',
@@ -100,8 +100,8 @@ export const articlesHighlights = [
     textCopy: '<p style="text-indent:0"><span class="first-letter">I</span>t is becoming more and more clear that emerging applications involving AI, extended reality, digital twins, and real-time control are going to transform nearly all dimensions of daily life by the end of the decade, if not sooner. These transformative technologies will rely on a new foundation of wireless connectivity. </p><p>    Wireless networks like cellular systems and Wi-Fi are typically evaluated on their ability to meet quantifiable requirements, most often in terms of network throughput, latency, and reliability.    Future wireless networks have to provide connectivity that is not only more stringent but also more heterogeneous than ever before. Immersive experiences in extended reality, for example, will require (i) extremely high throughput for rich visual scenes, (ii) extremely low latency for seamless interactions with others, and (iii) extremely high reliability for uninterrupted use and ubiquitous adoption. Future wireless networks will also providing new, expanded services beyond connectivity such as sensing and localization for applications aiming to perceive, digitize, and/or interact with the real world. </p><p> My goal is to conduct research and create technologies that drive the design, development, and deployment of these future wireless networks, with a particular focus on 5G and future 6G cellular networks. To accomplish this, my lab uses mathematical tools, machine learning, and real-world hardware to analyze, model, optimize, and prototype wireless systems and solutions. When possible and practical, we incorporate experimental components into our research efforts by collecting measurements, prototyping solutions, and evaluating proposed designs, which ultimately allows us to conduct research more likely to have real-world impact.</p><p>    I am also passionate about teaching students the fundamentals of wireless communication and introducing them to the technologies that have rapidly transformed wireless connectivity over the past two decades. My goal is to equip students with the skills and knowledge necessary to become wireless engineers capable of solving real-world problems and to excite them about the underlying technologies connecting our world. </p><p></p><p>  Ian P. Roberts is an Assistant Professor of Electrical and Computer Engineering at UCLA, where he leads the Wireless Lab in conducting theoretical and experimental research on wireless communication and sensing. Prior to joining UCLA, he completed his Ph.D. at the University of Texas at Austin, where he was an NSF Graduate Research Fellow in the Wireless Networking and Communications Group. He has industry experience developing and prototyping wireless technologies at AT&T Labs, Amazon, GenXComm (startup), Sandia National Labs, and Dynetics (defense contractor). During his time at GenXComm, he created and demonstrated their earliest wireless solutions combining RF, photonic, and digital signal processing for interference cancellation. In 2023, he received the Andrea Goldsmith Young Scholars Award from the IEEE Communications Society for his work on the theory and practice of full-duplex millimeter-wave communication systems.</p>'
   },
   {
-    articleId: 'h4',
-    bubbleTextOne: ' ',
+    articleId: 'xiaofancui',
+    bubbleTextOne: 'Xiaofan',
     bubbleTextTwo: 'Cui',
     bubbleTextThree: '',
     articleHeadlineOne:'NEW FACULTY',
@@ -109,7 +109,7 @@ export const articlesHighlights = [
     articleHeadlineThree: '',
     articleCallout1: '',
     articleCallout2: '',
-    articleImage1: '/img/Xiaofan-Cui.jpg',
+    articleImage1: '/2022-2023/img/Xiaofan-Cui.jpg',
     articleImage2:'',
     articleImage3: '',
     articleImage4:'',
@@ -133,7 +133,7 @@ export const articlesHighlights = [
     textCopy: '<p style="text-indent:0"><span class="first-letter">M</span>odern power systems are being transformed by clean-energy technologies. In this ongoing energy revolution, power electronics are evolving from being edge devices to becoming the “centrex” of the energy internet. Due to the high controllability, speed, and power density of power electronics, future energy systems can be more heterogeneous in form, more agile in actuation, larger in scale, and more distributed in function. The ultimate energy system should deliver the right energy to the right place at the right time. However, the cost and speed limitations of power converters restrict the flexibility and bandwidth of energy transfer. Moreover, most of the current models, controls, and designs do not align with each other. Models are either too simple to capture the underlying physics or too complicated to be utilized for design, while rigorous control laws result in overly conservative control performance. Much of the practical hardware is rule-based and semi-empirical.</p><p>   My research group focuses on the algorithm and hardware that transform power-electronics-based energy systems, from those as small as power conversion circuits to those as large as interconnected microgrids, from those as fast as electromagnetic transients to those as slow as electrochemical dynamics. Currently, we are working on projects including high-speed high-frequency power converters for information & data systems, power management of second-life battery energy storage systems, nonlinear control and transient stability of microgrids, and distributed energy generation & integration. Our ultimate research goal is to bridge the fundamental theory and emerging applications of power-electronics-dominated energy systems by innovating control-aware modeling frameworks, high-performance hardware validations, provably-correct control policies, and physics-informed learning schemes. </p><p>   Xiaofan Cui is an Assistant Professor of Electrical and Computer Engineering at the University of California, Los Angeles. He was a Postdoctoral Fellow at Stanford University, and prior to that, he served as a senior power electronics engineer at Tesla Inc. Dr. Cui earned a B.E. degree in Electrical Engineering and a B.S. degree in Economics from Tsinghua University, Beijing, China, in 2016. He obtained an M.S. degree in Mathematics and a Ph.D. degree in Electrical and Computer Engineering from the University of Michigan, Ann Arbor, MI, USA, in 2021 and 2022, respectively. In 2021, he was a Research Intern with the National Renewable Energy Laboratory (NREL). His research interests encompass the modeling, control, and design of high-performance power electronics for energy systems.  Professor Cui research has received recognition from universities, governments, and industries. His work has been published in top-tier journals and conferences in power electronics, batteries, power systems, and control. He also holds several service positions in the IEEE Power Electronics Society, Industry Applications Society, and American Society of Mechanical Engineers. </p>'
   },
   {
-    articleId: 'h5',
+    articleId: 'frankchangmedal',
     bubbleTextOne: 'M.C. Frank',
     bubbleTextTwo: 'Chang ',
     bubbleTextThree: '',
@@ -166,7 +166,7 @@ export const articlesHighlights = [
     textCopy: '  <p style="text-indent:0"><span class="first-letter">L</span>M.C. Frank Chang, a distinguished professor and the Wintek Chair in Electrical Engineering at the UCLA Samueli School of Engineering, has been awarded the 2023 James Clerk Maxwell Medal by the Institute of Electrical and Electronics Engineers and the Royal Society of Edinburgh (IEEE/RSE). The international award, which was announced last week, recognizes Chang’s “contributions to heterojunction device technology and CMOS [complementary metal–oxide–semiconductor] System-on-Chip realizations with unprecedented reconfigurability and bandwidth.” </p><p>Since joining UCLA in 1997, Chang has led the High Speed Electronics Laboratory with research focused on high-speed semiconductor devices and integrated circuits for digital, analog, microwave, millimeter-wave and terahertz system-on-chip applications. He has pioneered new methodologies to design reliable heterojunction devices, including digital-controlled artificial dielectric transmissions for reconfigurable software-defined, multi-band/mode radios and radars for extended operation bands and resolutions. Chang’s work has also had a major impact on mobile phones, with the majority of smartphones using the heterojunction bipolar transistor technology he developed to meet the required power and efficiency specifications.</p><p>Earlier this year, Chang was selected as a member of the European Academy of Sciences and Arts in the category of technical and environmental sciences. He is also a member of the National Academy of Engineering, Academia Sinica and the National Academy of Inventors. In 2017, the Institution of Engineering and Technology presented Chang with the J.J. Thomson Medal for Electronics.</p><p>Chang served as chair of the Electrical and Computer Engineering Department from 2010 to 2015 before taking a leave to head the National Chiao Tung University in Taiwan as president from 2015 to 2019. Prior to joining UCLA, he worked at the Rockwell International Science Center as the assistant director and department manager of the High Speed Electronics Laboratory. It was at Rockwell where he pioneered the class of heterojunction bipolar transistors and field effect transistors for smartphone front-end module implementations.</p><p>In addition to the James Clerk Maxwell Medal, the 2023 IEEE recognition also included the Donald O. Pederson Award in Solid-State Circuits that went to Ingrid Verbauwhede, an adjunct professor in electrical and computer engineering at UCLA Samueli. Verbauwhede was selected for her “pioneering contributions to energy-efficient and high-performance secure integrated circuits and systems.” She is currently a professor at Katholieke Universiteit Leuven in Belgium. </p> '
   },
   {
-    articleId: 'h6',
+    articleId: 'kangwanginventors',
     bubbleTextOne: 'Kang',
     bubbleTextTwo: 'Wang',
     bubbleTextThree: '',
@@ -175,7 +175,7 @@ export const articlesHighlights = [
     articleHeadlineThree: '',
     articleCallout1: '',
     articleCallout2: '',
-    articleImage1: '/img/kang-wang-nai.png',
+    articleImage1: '/2022-2023/img/kang-wang-nai.png',
     articleImage2:'https://source.unsplash.com/2r5adxul49E/1500x1500',
     articleImage3: '',
     articleImage4:'',
@@ -193,13 +193,13 @@ export const articlesHighlights = [
     articleImageAltTextProf: '',
     articleImageCred: '',
     articleAuthor: '',
-    articleCaption1: 'Oustanding Educator Award',
+    articleCaption1: 'National Academy of Inventors elected Professor Kang Wang',
     articleCaption2: '',
     articleCaption3: '',
     textCopy: '  <p style="text-indent:0"><span class="first-letter">L</span>Kang Wang, a distinguished professor of electrical and computer engineering at the UCLA Samueli School of Engineering, has been named a National Academy of Inventors (NAI) fellow, the highest professional distinction awarded to academic inventors.</p> <p> The academy recognizes global researchers who have “demonstrated a spirit of innovation in creating or facilitating outstanding inventions that have made a tangible impact on quality of life, economic development and the welfare of society.” Wang has been selected for the dozens of inventions he has patented over the course of his career.</p> <p> A UCLA faculty member since 1979, Wang holds the Raytheon Chair in Electrical Engineering, leads the Device Research Laboratory and co-directs the Center of Quantum Science and Engineering. His primary research focuses on quantum matters, information and technologies, semiconductors, and nanoelectronics and spintronics. He also holds faculty appointments in materials science and engineering, as well as physics and astronomy.</p> <p>  Wang has received many international accolades for his research, including the 2018 Magnetism Award and Néel Medal from the International Union of Pure and Applied Physics, and the 2017 J.J. Ebers Award from the Institute of Electrical and Electronics Engineering (IEEE) Electron Devices Society. He is a fellow of the American Physical Society and IEEE, a Guggenheim Fellow and a member of Academia Sinica in Taiwan.</p> <p> The National Academy of Inventors includes fellows from more than 250 academic institutions around the world, all of whom have earned their fellowships through years of dedication to their research. The 2022 class of 169 new fellows from 110 research universities and governmental and nonprofit research institutes worldwide will be inducted June 27 at the 12th annual meeting of the National Academy of Inventors in Washington, D.C.</p> <p>   Riley de Jong contributed to this story.  </p> '
   },
   {
-    articleId: 'h7-Kadambi',
+    articleId: 'kadambiaward',
     bubbleTextOne: 'Achuta ',
     bubbleTextTwo: 'Kadambi',
     bubbleTextThree: '',
@@ -208,10 +208,10 @@ export const articlesHighlights = [
     articleHeadlineThree: 'Remote Heart Rate Sensors Can be Biased Against Darker Skin.',
     articleCallout1: '',
     articleCallout2: '',
-    articleImage1: '/img/kadambi-young-professional-award.jpg',
+    articleImage1: '/2022-2023/img/kadambi-young-professional-award.jpg',
     articleImage2:'/2022-2023/img/kadambi-research-team.png',
     articleImage3: '/2022-2023/img/kadambi-Heart-Rate-Sensor.png',
-    articleImage4:'/src/assets/images/Achuta_Kadambi.jpg',
+    articleImage4:'/2022-2023/img/Achuta_Kadambi.jpg',
     articleImage5:'',
     articleImage6:'',
     articleImageAltText1: '',
@@ -222,7 +222,7 @@ export const articlesHighlights = [
     articleImageAltText6: '',
     articleImageMain: '/2022-2023/img/kadambi-Heart-Rate-Sensor.png',
     articleImageAltTextMain: '',
-    articleImageProf: '/src/assets/images/Achuta_Kadambi.jpg',
+    articleImageProf: '/2022-2023/img/Achuta_Kadambi.jpg',
     articleImageAltTextProf: 'Achuta Kadambi portrait',
     articleImageCred: 'Visual Machines Group/UCLA',
     articleAuthor: 'Dannela Lagrimas contributed to this story.',
