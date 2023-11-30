@@ -33,20 +33,20 @@ export const panels = [
     title: "NEW FACULTY",
     firstName: "Elaheh",
     lastName: "Ahmadi",
-    text: "Exploring Ultrawide Bandgap Materials and Devices for a Connected World",
-    linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
+    text: "Exploring Ultrawide Bandgap Materials and Devices",
+    linkText: "<span class='material-symbols-outlined'>arrow_forward</span><span>hello elahe</span>",
     image: "/2022-2023/img/flame-semiconductor.jpg",
     link: "highlights/elahehahmadi"
   },
   {
-    id: "Ian Roberts",
+    id: "ianroberts",
     title: "NEW FACULTY",
     firstName: "Ian ",
     lastName: "Roberts",
-    text: "Is Pioneering New Wireless Network Technologies",
+    text: "Pioneering New Wireless Network Technologies",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
     image: "/2022-2023/img/wireless-network-nick-fancher.jpg",
-    link: "highlights/ianoroberts"
+    link: "highlights/ianroberts"
   },
   {
     id: "xiaofancui",
@@ -60,30 +60,30 @@ export const panels = [
   },
   {
     id: "frankchangmedal",
-    title: "Distinguished Professor",
-    firstName: "M.C Frank",
+    title: "Professor",
+    firstName: "M.C.Frank",
     lastName: "Chang",
-    text: "Awarded the 2023 James Clerk Maxwell Medal by the IEEE and the Royal Society of Edinburgh (IEEE/RSE)",
+    text: "Awarded James Clerk Maxwell Medal",
     linkText: "../assets/images/joy.jpg",
     image: "https://source.unsplash.com/Kj2SaNHG-hg/1500x1500",
     link: "highlights/kadambiaward"
   },
   {
     id: "kangwanginventors",
-    title: "Distinguished Professor",
+    title: "Professor",
     firstName: "Kang",
     lastName: "Wang",
     text: "Elected to National Academy of Inventors",
     linkText: "<span class='material-symbols-outlined'>arrow_forward</span>",
-    image: "https://source.unsplash.com/_Q96YBb998E/1500x1500",
+    image: "https://source.unsplash.com/xnqVGsbXgV4/1500x1500",
     link: "highlights/kangwanginventors"
   },
   {
     id: "kadambiaward",
-    title: "Professor",
+    title: "Asst. Professor",
     firstName: "Achuta",
     lastName: "Kadambi",
-    text: "Recognized for his Role in Promoting Inclusivity in Engineering",
+    text: "Recognized for Promoting Inclusivity in Engineering",
     linkText: "../assets/images/joy.jpg",
     image: "https://source.unsplash.com/WqhP-Oq2aVY/1500x1500",
     link: "highlights/kadambiaward"

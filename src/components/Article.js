@@ -29,12 +29,12 @@ class Article extends Component{
     } = this.props.story;
 
     //check if image exists, assign class name to "none" it is...
-    let articleImage1Class = (articleImage1.length === 0)? 'none' : `${articleId}`;
-    let articleImage2Class = (articleImage2.length === 0)? 'none' : `${articleId}`;
-    let articleImage3Class = (articleImage3.length === 0)? 'none' : `${articleId}`;
-    let articleImage4Class = (articleImage4.length === 0)? 'none' : `${articleId}`;
-    let articleImage5Class = (articleImage5.length === 0)? 'none' : `${articleId}`;
-    let articleImage6Class = (articleImage6.length === 0)? 'none' : `${articleId}`;
+    let articleImage1Class = (articleImage1.length === 0)? 'none' : `${articleId}-1`;
+    let articleImage2Class = (articleImage2.length === 0)? 'none' : `${articleId}-2`;
+    let articleImage3Class = (articleImage3.length === 0)? 'none' : `${articleId}-3`;
+    let articleImage4Class = (articleImage4.length === 0)? 'none' : `${articleId}-4`;
+    let articleImage5Class = (articleImage5.length === 0)? 'none' : `${articleId}-5`;
+    let articleImage6Class = (articleImage6.length === 0)? 'none' : `${articleId}-6`;
     // let articleImageProfClass = (articleImageProf.length === 0)? 'none' : `${articleId}`;
 
     //check if images or caption on row exists, if not assign class 'none' to hide it
@@ -56,7 +56,7 @@ class Article extends Component{
           <img src={`${articleImageMain}`}
             alt={`${articleImageAltTextMain}`}
             title={`${articleAuthor}`}
-            className={`article-main-photo ${articleId}`}
+            className={`article-main-photo ${articleId}-main-photo`}
           />
           <div className='overlay'></div>
         </div>
