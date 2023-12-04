@@ -146,7 +146,7 @@
         cursor: context-menu;
 
         .panelImage{
-          filter:  blur(2px) opacity(.6);
+          filter:  blur(1px) opacity(.6);
         }
       }
 
@@ -179,33 +179,42 @@
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/WqhP-Oq2aVY/1500x1500");
+  background-image: url("../assets/images/flame-semiconductor.jpg");
+  // background-image: url("https://source.unsplash.com/WqhP-Oq2aVY/1500x1500"); //encounter glass wall
+}
+.ianroberts{
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("/assets/images/wireless-network-nick-fancher.jpg");
+}
+.xiaofancui{
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("/assets/images/hex-computer-grid-steve-johnson.jpg");
+
+}
+.frankchangmedal{
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("/assets/images/Maxwell-statue.jpg");
+}
+.kangwanginventors{
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-image: url("/assets/images/microprocessor-zhvgeirSXgU.jpg");
+  // background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
+
 }
 .kadambiaward{
   object-fit: cover;
   background-size: cover;
   background-position: center center;
   overflow: hidden;
-  background-image: url("https://source.unsplash.com/fmCtPQhQksw/1500x1500");
-}
-.xiangchengoogle{
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("https://source.unsplash.com/_Q96YBb998E/1500x1500");
-}
-.sergiocarbajoyia{
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
-}
-.yuantianokawa{
-  background-size: cover;
-  background-position: center center;
-  overflow: hidden;
-  background-image: url("../assets/images/joy.jpg");
-  // background-image: url("https://source.unsplash.com/CUY_YHhCFl4/1500x1500");
+  background-image: url("/assets/images/dark-skin-doctor.jpg");
 }
 
 
