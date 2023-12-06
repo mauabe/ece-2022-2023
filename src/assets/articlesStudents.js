@@ -184,7 +184,7 @@ export const articlesStudents = [
     articleImageAltText1: 'student centers',
     articleImageAltText2: '',
     articleImageAltText3: '',
-    articleImageAltText4: 'y',
+    articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
     articleImageMain: 'https://source.unsplash.com/43qHmfNkF1o/1500x1500',
