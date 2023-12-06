@@ -17,8 +17,7 @@
     margin-bottom: 2em;
     }
 
-  .card-deck,
-  .card-students
+  .card-deck
   {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -125,23 +124,29 @@
 
   .card-students{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 2fr));
+    grid-template-columns: repeat(auto-fill, minmax(20em, 3fr));
+    grid-template-rows: auto ;
+    grid-gap: 1.5em;
+    text-indent: 0;
 
     .card{
-       background: $beige-light--30;
-    }
-    .student-frame{
-      margin: 2rem auto ;
-      overflow: hidden;
-      max-width: 450px;
-      max-height: 550px;
+      display: grid;
+      background: $beige-light--30;
 
-      img{
-        width: 450px;
-        height: 550px;
-        object-position: 50% 50%;
-        object-fit: cover;
-      }
+       .student-frame{
+         margin: 2em auto ;
+         overflow: hidden;
+         max-width: 20em;
+         max-height: 25em;
+         align-self: end;
+
+         img{
+           width: 20em;
+           height: 25em;
+           object-position: 50% 50%;
+           object-fit: cover;
+         }
+       }
     }
   }
 
