@@ -124,10 +124,10 @@
         margin: 1em .5em;
         padding: .5em;
         color: $am;
-        background-color: $background--70;
+        background-color: $tomorrow--70;
         transition:
-          color 0.3s ease-in-out,
-          background-color 0.3s ease-in-out ;
+          color 0.3s ease-in,
+          background-color 0.3s ease-in ;
 
         .material-symbols-outlined {
           font-variation-settings:
