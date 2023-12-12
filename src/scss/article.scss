@@ -263,14 +263,14 @@
     font-family: 'Libre Caslon Text', sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 0.8em;
     color: $tomorrow;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in;
     margin: 0 .3em;
     cursor: pointer;
 
     &:hover{
-      color: $tomorrow--80;
+      color: $tomorrow--60;
     }
   }
 }  //end or article

@@ -55,13 +55,22 @@ $background--70: rgba(59, 100, 135, 0.7);
 $background--80: rgba(59, 100, 135, 0.8);
 $background: rgba(59, 100, 135, 1);
 
+$yesterday: rgba(42, 94, 140);
+$yesterday--20: rgba(42, 94, 140, 0.2);
+$yesterday--30: rgba(42, 94, 140, 0.3);
+$yesterday--40: rgba(42, 94, 140, 0.4);
+$yesterday--50: rgba(42, 94, 140, 0.5);
+$yesterday--60: rgba(42, 94, 140, 0.6);
+$yesterday--70: rgba(42, 94, 140, 0.6);
+$yesterday--80: rgba(42, 94, 140, 0.8);
+
 // beige with transparency
 $beige-light--10: rgba(208, 209, 205, .1);
 $beige-light--30: rgba(208, 209, 205, .3);
 $beige-light--70: rgba(208, 209, 205, .7);
-// $beige-lighter--40: rgba(239, 240, 235, .4);
-// $beige-lighter--60: rgba(239, 240, 235, .6);
-// $beige-lighter--80: rgba(239, 240, 235, .8);
+$beige-lighter--40: rgba(239, 240, 235, .4);
+$beige-lighter--60: rgba(239, 240, 235, .6);
+$beige-lighter--80: rgba(239, 240, 235, .8);
 
 $today: #fdb00a;
 $today--20: rgba(253, 176, 10, 0.2);
@@ -76,12 +85,15 @@ $today--90: rgba(253, 176, 10, 0.9);
 $tomorrow: #e14344;
 $tomorrow--20: rgba(225, 67, 68, 0.2);
 $tomorrow--30: rgba(225, 67, 68, 0.3);
+$tomorrow--40: rgba(225, 67, 68, 0.4);
 $tomorrow--50: rgba(225, 67, 68, 0.5);
 $tomorrow--60: rgba(225, 67, 68, 0.6);
 $tomorrow--70: rgba(225, 67, 68, 0.7);
 $tomorrow--80: rgba(225, 67, 68, 0.8);
 $tomorrow--90: rgba(225, 67, 68, 0.9);
+$am2: #e0e0e0;
 $am: #c7c9c8;
 $pm: #dcdedd;
+$midday: #6e6e6e;
 $noon: #555555;
 $eve: #2d2d2d;
