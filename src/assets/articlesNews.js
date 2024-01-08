@@ -186,7 +186,7 @@ export const articlesNews = [
     articleImageAltText4: '',
     articleImageAltText5: '',
     articleImageAltText6: '',
-    articleImageMain: '/2022-2023/img/eye_interface.jpg',
+    articleImageMain: '/2022-2023/img/finger-processor-droplet.jpg',
     articleImageAltTextMain: '',
     articleImageProf: '/img/emaminejad6.jpg',
     articleImageAltTextProf: 'Sam Emaminejad ECE Faculty portrait',
@@ -194,7 +194,7 @@ export const articlesNews = [
     articleAuthor: '',
     articleCaption1: 'Sam Emaminejad Bio-sensor',
     articleCaption2: '',
-    articleCaption3: '',
+    articleCaption3: 'eye_interface.jpg',
     textCopy: '    <p style="text-indent:0"><span class="first-letter">R</span>esearchers at UCLA and Stanford University have developed a secure, noninvasive, one-touch technology using hydrogel-coated chemical sensors and a signal-interpretation framework that can present detailed information about an individual’s blood composition — such as metabolites, hormones, nutrients and pharmaceuticals, as well as blood oxygen — all through the press of a finger. The first-of-its-kind system builds on previous skin-sensing technologies developed by the researchers, and a paper describing the new technology has recently been published in Proceedings of the National Academy of Science (PNAS).</p><p>   One potential application of the technology is to embed the sensors in steering wheels of keyless cars to measure blood alcohol and drug levels. This can help prevent driving under the influence (DUI) of drugs or alcohol that can impair a driver’s ability to operate a vehicle safely.   “This touch-based technology can serve as a human-machine interface to perceive and interpret what’s inside someone’s body,” said study leader and senior author Sam Emaminejad, an associate professor of electrical and computer engineering at the UCLA Samueli School of Engineering. “It provides much richer information about our health than current touch-based biosensors such as pulse oximeters.”</p><p> The system, described by the researchers as a “cryptographic bio-human machine interface,” or CB-HMI, uses thin hydrogel-coated chemical sensors to collect and detect particular circulating molecules on the skin through natural perspiration. CB-HMI also collects heart rate and blood oxygen levels.</p><p> “This combines the familiarity of a fingerprint scan, such as the one that unlocks some smartphone models, with our advances in noninvasive diagnostics that can detect trace molecules circulating in our body that have been traditionally collected in samples of blood, saliva and other fluids,” said Emaminejad, who is also a member of the California NanoSystems Institute. “Importantly, it also can encrypt the data at the point of collection by leveraging the individual’s unique fingerprint as a key, so the collected data remain secure and private.”'
   },
   {
