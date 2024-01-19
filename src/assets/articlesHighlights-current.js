@@ -92,7 +92,7 @@ export const articlesHighlights = [
     articleImageAltTextMain: '',
     articleImageProf: '/2022-2023/img/ian-roberts-portrait.jpg',
     articleImageAltTextProf: 'UCLA ECE Faculty Ian Roberts portrait',
-    articleImageCred: 'Photo by Nick Fancher. Illustration by M. Feldman-Abe',
+    articleImageCred: 'Photo by Nick Fancher. Illustration by M. Fa',
     articleAuthor: '',
     articleCaption1: '',
     articleCaption2: '',
