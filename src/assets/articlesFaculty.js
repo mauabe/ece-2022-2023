@@ -123,7 +123,7 @@ export const articlesFaculty = [
     articleImageMain: '/2022-2023/img/motherboard-magnifier.jpg',
     articleImageAltTextMain: ' circuit board examined under magnifier',
     articleImageProf: '/img/bahram_jalali.jpg',
-    articleImageAltTextProf: '',
+    articleImageAltTextProf: 'ECE Professor Bahram Jalali',
     articleImageCred: 'Getty Images. ',
     articleCaption1: '',
     articleCaption2: '',
