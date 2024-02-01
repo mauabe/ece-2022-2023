@@ -34,7 +34,7 @@ class App extends Component {
       <div className="App">
         <Navigation/>
         <Switch>
-          <Route path='/intro' render={() => <Redirect to="/intro"/>} />
+          {/* <Route path='/intro' render={() => <Redirect to="/intro"/>} /> */}
           <Route path='/highlights' component={Highlights}/>
           <Route path='/news' component={News}/>
           <Route path='/students' component={Students}/>

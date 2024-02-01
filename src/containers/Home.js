@@ -33,7 +33,6 @@ class Home extends Component{
           <div className="panelContent" >
             <Link to={`/${panel.link}`} >
               <div className="linkText">
-                {/* <span >&#x2B22;</span> */}
                 <span className='material-symbols-outlined'>arrow_forward</span>
               </div>
             </Link>

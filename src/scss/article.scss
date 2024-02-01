@@ -51,12 +51,12 @@
         top: 0;
         height: 140px;
         width: 100%;
-        background: linear-gradient(rgba(58, 76, 125, 0.4), rgba(58, 25, 105, 0.2));
+        background: linear-gradient(rgba(58, 76, 125, 0.1), rgba(46, 21, 81, 0.1));
         transition: all .3s ease-in-out;
         opacity:0.5;
 
         &:hover {
-          background: linear-gradient(rgba(58, 102, 125, 0.9), rgba(58, 25, 105, 0.6));
+          background: linear-gradient(rgba(58, 102, 125, 0.2), rgba(58, 25, 105, 0.2));
         }
       }
     }  //end container
@@ -263,10 +263,10 @@
     font-family: 'Libre Caslon Text', sans-serif;
     font-weight: 200;
     font-style: italic;
-    font-size: 1em;
+    font-size: 0.85em;
     color: $tomorrow;
     transition: all .2s ease-in;
-    margin: 0 .3em;
+    // margin: 0 .3em;
     cursor: pointer;
 
     &:hover{
